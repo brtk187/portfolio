@@ -4,7 +4,6 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 
 const App = () => {
   return (
-    
     <BrowserRouter basename={window.location.pathname || ''}>
       <Route exact path="/" component={Index} />
       <div className='relative z-0 bg-primary'>
